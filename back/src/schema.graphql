@@ -1,0 +1,15 @@
+  type User {
+    id: ID!
+    name: String!
+    email: String!
+    password: String!
+    deliveryAddresses: [String]!
+    paymentMethods: [String]!
+    purchase
+    istory: [String]!
+  }
+  type Query {
+    userByEmailAndPassword(email: String!, password: String!): User
+    users: [User]
+    teste: String 
+  }

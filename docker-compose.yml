@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./back
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"  # Porta para acessar o backend
+    environment:
+      - NODE_ENV=${NODE_ENV}  # Passando a variável de ambiente NODE_ENV
+
+  mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile-mysql
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mydatabase
