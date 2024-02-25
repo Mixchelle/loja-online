@@ -1,1 +1,56 @@
-# loja-online
+# Projeto de E-commerce - Loja Online
+
+Bem-vindo ao projeto de desenvolvimento da nossa loja online! Este projeto visa criar uma plataforma de comércio eletrônico completa, incluindo funcionalidades de gestão de loja, vendas por funcionários, controle de contas a pagar e receber, tudo integrado com o site de vendas.
+
+## Tecnologias Utilizadas
+
+- Backend:
+  - Node.js
+  - Sequelize (ORM para interação com banco de dados SQL)
+  - GraphQL
+
+- Frontend:
+  - React
+
+## Funcionalidades Principais
+
+- **Página de Produtos**: Exibe todos os produtos disponíveis para venda, permitindo filtrar e classificar os produtos.
+- **Detalhes do Produto**: Mostra informações detalhadas de um produto específico quando clicado.
+- **Carrinho de Compras**: Permite adicionar produtos ao carrinho e visualizar detalhes do carrinho.
+- **Checkout**: Facilita o processo de compra, fornecendo informações de envio e pagamento.
+- **Autenticação de Usuário**: Permite que os usuários criem uma conta e façam login com segurança.
+
+## Arquitetura do Projeto
+
+O projeto está estruturado em três partes principais:
+
+1. **Backend**: Desenvolvido com Node.js, Sequelize e GraphQL para fornecer uma API robusta para o frontend e outras integrações.
+2. **Frontend**: Desenvolvido com React para criar uma interface de usuário interativa e responsiva.
+3. **Serviço do Vendedor**: Um microserviço dedicado ao gerenciamento de vendedores, produtos e vendas, utilizando a mesma tecnologia do backend principal.
+
+## Desenvolvimento Atual
+
+Atualmente, estamos trabalhando nas seguintes partes do projeto:
+
+- Configuração do ambiente de desenvolvimento.
+- Desenvolvimento das funcionalidades principais do backend, frontend e serviço do vendedor.
+- Testes e depuração para garantir que tudo funcione conforme o esperado.
+
+## Como Contribuir
+
+Se você estiver interessado em contribuir para o projeto, siga estas etapas:
+
+1. Faça um fork do repositório e clone-o em sua máquina local.
+2. Crie uma branch para a sua contribuição (`git checkout -b feature/sua-contribuicao`).
+3. Commit suas alterações (`git commit -am 'Adicione sua contribuição'`).
+4. Push para a branch (`git push origin feature/sua-contribuicao`).
+5. Crie um novo Pull Request e descreva suas alterações.
+
+## Equipe
+
+- [Michelle Marquez](https://github.com/Mixchelle) - Desenvolvedora Full Stack - [LinkedIn](https://www.linkedin.com/in/mixchelle/)
+
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
